@@ -83,12 +83,18 @@ header {
 
 #sidebar-button {
     font-size: 28px;
+
     background:none;
     border:none;
+
     cursor: pointer;
+
     position:fixed;
+
     left: 10px;
+
     z-index: 1000;
+
     color: white;
 }
 
@@ -141,12 +147,21 @@ header {
 
     gap: 30px;
 
+    justify-content: center;
     align-items: center;
 
     padding: 20px;
 
     text-align: center;
 }
+
+.text-content {
+        display: flex;
+        flex-direction: column;
+
+        justify-content: center;
+        align-items: center;
+    }
 
 .title {
     color: rgb(255, 255, 255);
@@ -255,6 +270,10 @@ header {
 .content {
     display: flex;
     flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
     gap: 100px;
 
     padding: 20px;
@@ -273,6 +292,8 @@ header {
     justify-content: center;
     align-items: center;
 
+    width: 90%;
+
     border-radius: 15px;
 
     padding: 10px;
@@ -284,8 +305,6 @@ header {
 .content div h2,
 .content div p {
     margin: 10px;
-    
-    margin: 0 auto;
     
     color: white;
     text-align: center;
@@ -426,7 +445,7 @@ header {
     aspect-ratio: 1/1;
 
     height: auto;
-    width: 120px;
+    width: 90px;
 
     background-color: rgba(0, 255, 0, 0);
 }
@@ -537,37 +556,140 @@ footer a:hover {
 /*---------------------------------------------------------------*/
 
 @media (min-width: 1024px) {
-
-    .hero {
-        
+    /*----header----*/
+    header {
+        height: 50px;
     }
+
+    .header-logo {
+        height: 70px;
+        width: 70px;
+    }
+
+    #sidebar-button {
+        display: none;
+    }
+
+    /*----hero----*/
+
+    .title {
+        padding-top: 20rem;
+        font-size: 35px;
+    }
+
+    #service {
+        font-size: 15px;
+    }
+
+    #desc {
+        font-size: 20px;
+        max-width: 80%;
+
+        line-height: normal;
+    }
+
+    .cta, .contact-us {
+        height: 60px;
+        width: 160px;
+
+        border-radius: 50px;
+
+        font-size: 20px;
+        color: white;
+        text-shadow: black 1px 1px 2px;
+        text-align: center;
+    }
+
+    .next {
+        font-size: 50px;
+    }
+
+    /*----content----*/
 
     .content {
         padding: 20px;
-        
-        align-items: center;
     }
 
     .content div {
-        max-width: 100%;
+        width: 800px;
+        gap: 30px;
+        padding: 40px;
     }
 
     .content h1 {
-        font-size: 40px;
+        font-size: 60px;
+        width: 900px;
 
         background-color: rgba(255, 0, 0, 0.116);
     }
 
     .content h2 {
-        font-size: 25px;
+        font-size: 20px;
+        width: 700px;
     }
 
     .content p {
         font-size: 30px;
-        width: 50%;
+        width: 700px;
     }
 
+    /*----TLDR----*/
+
     .TLDR img {
-        width: 50%;
+        margin-top: -50px;
+
+        width: 110%;
+    }
+
+    /*----services----*/
+
+    .service-buttons {
+        display: flex;
+        flex-direction: row !important;
+    }
+
+    .service-buttons button {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        height: auto;
+    }
+
+    .service-buttons button img {
+        width: 160px;
+    }
+
+    .service-buttons span {
+        font-size: 30px;
+    }
+
+    /*----CTA----*/
+
+    .bottom-cta button {
+    height: 60px;
+    width: 160px;
+
+    border-radius: 50px;
+
+    font-size: 25px;
+    }
+
+    /*----CTA----*/
+
+    footer {
+        padding: 60px;
+    }
+
+    footer h1 {
+        font-size: 40px;
+    }
+
+    footer a,
+    footer span {
+        font-size: 20px;
+    }
+
+    footer p {
+        font-size: 15px;
     }
 }
