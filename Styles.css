@@ -11,6 +11,11 @@
 /*---------------------------------------------------------------*/
 
 @font-face {
+    font-family: "SF Pro Display Regular Italic";
+    src: url("/Content/Fonts/SF-Pro-Display-RegularItalic.otf");
+}
+
+@font-face {
     font-family: "SF Pro Display Regular";
     src: url("/Content/Fonts/SF-Pro-Display-Regular.otf");
 }
@@ -44,6 +49,10 @@ body {
     font-family: "SF Pro Display";
     margin: 0;
     border-radius: 8px;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 /*---------------------------------------------------------------*/
@@ -89,17 +98,23 @@ header {
 
     cursor: pointer;
 
-    position:fixed;
+    position: absolute;
 
-    left: 10px;
+    right: -45px;
 
     z-index: 1000;
 
     color: white;
+
+    margin: 5px;
 }
 
 #sidebar-button:hover {
     color: rgba(255,255,255,0.8)
+}
+
+.top-links {
+    display: none;
 }
 
 /*---------------------------------------------------------------*/
@@ -116,8 +131,50 @@ header {
     background-color: black;
 }
 
+.side-content {
+    display: flex;
+    flex-direction: column;
+
+    padding: 30px;
+    height: 100vh;
+}
+
 .sidebar.open {
     left: 0;
+}
+
+.sidebar-top {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.sidebar-top a {
+    font-family: "SF Pro Display Regular Italic";
+    font-size: 25px;
+    line-height: 50px;
+    
+    color: white;
+    text-decoration: none;
+}
+
+.sidebar-top a:hover {
+    opacity: .7;
+}
+
+.sidebar-bottom {
+    margin-top: auto;
+    display: flex;
+    padding-bottom: 60px;
+}
+
+.sidebar-bottom img {
+    height: auto;
+    width: 80px;
+
+    filter: invert(1) opacity(.3);
 }
 
 /*---------------------------------------------------------------*/
@@ -156,12 +213,12 @@ header {
 }
 
 .text-content {
-        display: flex;
-        flex-direction: column;
+    display: flex;
+    flex-direction: column;
 
-        justify-content: center;
-        align-items: center;
-    }
+    justify-content: center;
+    align-items: center;
+}
 
 .title {
     color: rgb(255, 255, 255);
@@ -207,16 +264,25 @@ header {
 
 /*==========================Hero Buttons=========================*/
 
-.cta, .contact-us {
+.hero-buttons a {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
     height: 50px;
     width: 120px;
 
     border-radius: 25px;
 
+    font-family: "SF Pro Rounded Regular";
     font-size: 16px;
     color: white;
     text-shadow: black 1px 1px 2px;
     text-align: center;
+
+    text-decoration: none;
 
     border-style: solid;
     border-width: 1px;
@@ -225,7 +291,6 @@ header {
 
 .cta {
     background-color: rgba(0, 255, 200, 0.5);
-    font-family: "SF Pro Rounded Regular";
 }
 
 .cta:hover {
@@ -234,7 +299,6 @@ header {
 
 .contact-us {
     background-color: rgba(255, 255, 255, 0);
-    font-family: "SF Pro Rounded Regular";
 }
 
 .contact-us:hover {
@@ -242,7 +306,7 @@ header {
     backdrop-filter: blur(4px);
 }
 
-.next {
+#next {
     font-size: 35px;
     font-family: "Symbols Nerd Font";
 
@@ -259,7 +323,7 @@ header {
     border: none;
 }
 
-.next:hover {
+#next:hover {
     color: rgba(211, 255, 223, 0.6);
 }
 
@@ -368,7 +432,7 @@ header {
 /*------------------------Service Buttons------------------------*/
 
 .service-buttons {
-    gap: 20px;
+    gap: 10px;
 
     width: 100%;
 
@@ -377,13 +441,13 @@ header {
     background-color: rgba(255, 166, 0, 0);
 }
 
-.service-buttons button img {
+.service-buttons a img {
     width: 80%;
     height: auto;
     background-color: rgba(0, 255, 0, 0);
 }
 
-.service-buttons button {
+.service-buttons a {
     gap: 0px;
 
     background-color: rgba(255, 0, 0, 0);
@@ -400,7 +464,7 @@ header {
     color: white;
 }
 
-.service-buttons button:hover {
+.service-buttons a:hover {
     text-decoration: underline;
 }
 
@@ -482,23 +546,30 @@ header {
     background-color: rgba(0, 128, 0, 0);
 }
 
-.bottom-cta button {
-    height: 40px;
-    width: 120px;
+.bottom-cta a {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    height: 60px;
+    width: 130px;
+
+    border-radius: 30px;
 
     background-color: rgb(53, 53, 53);
 
-    border-radius: 25px;
-
     font-family: "SF Pro Rounded Regular";
-    font-size: 16px;
+    font-size: 20px;
 
     color: white;
+    text-decoration: none;
 
     border: none;
 }
 
-.bottom-cta button:hover {
+.bottom-cta a:hover {
     background-color: rgb(0, 141, 110);
 }
 
@@ -570,6 +641,30 @@ footer a:hover {
         display: none;
     }
 
+        .top-links {
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+
+        gap: 40px;
+
+        margin-right: 50px;
+        
+        background-color: rgba(255, 0, 0, 0);
+    }
+
+    .top-links a {
+        font-family: "SF Pro Display Regular Italic";
+        font-size: 20px;
+        color: white;
+
+        text-decoration: none;
+    }
+
+    .top-links a:hover {
+        opacity: .7;
+    }
+
     /*----hero----*/
 
     .title {
@@ -617,7 +712,7 @@ footer a:hover {
     }
 
     .content h1 {
-        font-size: 60px;
+        font-size: 50px;
         width: 900px;
 
         background-color: rgba(255, 0, 0, 0.116);
