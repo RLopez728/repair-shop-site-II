@@ -26,12 +26,10 @@ The project is still evolving. Some sections are works in progress, and I plan t
 ## Running it locally
 Clone the repo and open `index.html` in your browser.
 
+## Contributors
+-RLopez728/RixZC
 
-##Contributors
-RLopez728/RixZC
-
-
-##Screenshots
+## Screenshots
 
 ### Desktop View
 ![Desktop](/images/screenshots/Hundred-Plus-Repairs-Site.png)
