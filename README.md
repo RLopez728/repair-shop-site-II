@@ -27,7 +27,7 @@ The project is still evolving. Some sections are works in progress, and I plan t
 Clone the repo and open `index.html` in your browser.
 
 ## Contributors
-- RLopez728/RixZC
+- RLopez728 / RixZC
 
 ## Screenshots
 
