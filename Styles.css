@@ -45,6 +45,11 @@
     src: url("/fonts/SF-Pro-Rounded-Regular.woff2");
 }
 
+@font-face {
+    font-family: "Symbols Nerd Font";
+    src: url("/fonts/SymbolsNerdFontMono-Regular.woff2");
+}
+
 /*---------------------------------------------------------------*/
 /*=============================Body==============================*/
 /*---------------------------------------------------------------*/
