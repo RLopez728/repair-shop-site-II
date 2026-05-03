@@ -12,37 +12,37 @@
 
 @font-face {
     font-family: "SF Pro Display Regular Italic";
-    src: url("/fonts/SF-Pro-Display-RegularItalic.woff");
+    src: url("/fonts/SF-Pro-Display-RegularItalic.woff2");
 }
 
 @font-face {
     font-family: "SF Pro Display Bold";
-    src: url("/fonts/SF-Pro-Display-Bold.woff");
+    src: url("/fonts/SF-Pro-Display-Bold.woff2");
 }
 
 @font-face {
     font-family: "SF Pro Display Regular";
-    src: url("/fonts/SF-Pro-Display-Regular.woff");
+    src: url("/fonts/SF-Pro-Display-Regular.woff2");
 }
 
 @font-face {
     font-family: "SF Pro Text Light";
-    src: url("/fonts/SF-Pro-Text-Light.woff");
+    src: url("/fonts/SF-Pro-Text-Light.woff2");
 }
 
 @font-face {
     font-family: "SF Pro Text Thin";
-    src: url("/fonts/SF-Pro-Text-Thin.woff");
+    src: url("/fonts/SF-Pro-Text-Thin.woff2");
 }
 
 @font-face {
     font-family: "SF Pro Text Ultralight";
-    src: url("/fonts/SF-Pro-Text-Ultralight.woff");
+    src: url("/fonts/SF-Pro-Text-Ultralight.woff2");
 }
 
 @font-face {
     font-family: "SF Pro Rounded Regular";
-    src: url("/fonts/SF-Pro-Rounded-Regular.woff");
+    src: url("/fonts/SF-Pro-Rounded-Regular.woff2");
 }
 
 /*---------------------------------------------------------------*/
