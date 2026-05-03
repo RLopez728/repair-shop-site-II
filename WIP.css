@@ -12,12 +12,12 @@
 
 @font-face {
     font-family: "SF Pro Display Regular";
-    src: url("public/fonts/SF-Pro-Display-Regular.woff2");
+    src: url("/fonts/SF-Pro-Display-Regular.woff2");
 }
 
 @font-face {
     font-family: "SF Pro Text Thin";
-    src: url("public/fonts/SF-Pro-Text-Thin.woff2");
+    src: url("/fonts/SF-Pro-Text-Thin.woff2");
 }
 
 /*---------------------------------------------------------------*/
