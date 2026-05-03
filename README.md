@@ -26,13 +26,16 @@ The project is still evolving. Some sections are works in progress, and I plan t
 ## Running it locally
 Clone the repo and open `index.html` in your browser.
 
+#Contributors
+Rlopez728/RixZC
+
 #Screenshots
 
 ### Desktop View
-![Desktop](/public/images/screenshots/Hundred-Plus-Repairs-Site.png)
+![Desktop](/images/screenshots/Hundred-Plus-Repairs-Site.png)
 
 ### Mobile View
-![Desktop](/public/images/screenshots/Hundred-Plus-Repairs-Site-Mobile.png)
+![Desktop](/images/screenshots/Hundred-Plus-Repairs-Site-Mobile.png)
 
 ### WIP View
-![Desktop](/public/images/screenshots/Hundred-Plus-Repairs-Site-WIP.png)
+![Desktop](/images/screenshots/Hundred-Plus-Repairs-Site-WIP.png)
