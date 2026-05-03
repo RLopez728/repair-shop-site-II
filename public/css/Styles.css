@@ -12,32 +12,32 @@
 
 @font-face {
     font-family: "SF Pro Display Regular Italic";
-    src: url("/Content/Fonts/SF-Pro-Display-RegularItalic.otf");
+    src: url("/public/fonts/SF-Pro-Display-RegularItalic.otf");
 }
 
 @font-face {
     font-family: "SF Pro Display Regular";
-    src: url("/Content/Fonts/SF-Pro-Display-Regular.otf");
+    src: url("/public/fonts/SF-Pro-Display-Regular.otf");
 }
 
 @font-face {
     font-family: "SF Pro Text Light";
-    src: url("/Content/Fonts/SF-Pro-Text-Light.otf");
+    src: url("/public/fonts/SF-Pro-Text-Light.otf");
 }
 
 @font-face {
     font-family: "SF Pro Text Thin";
-    src: url("/Content/Fonts/SF-Pro-Text-Thin.otf");
+    src: url("/public/fonts/SF-Pro-Text-Thin.otf");
 }
 
 @font-face {
     font-family: "SF Pro Text Ultralight";
-    src: url("/Content/Fonts/SF-Pro-Text-Ultralight.otf");
+    src: url("/public/fonts/SF-Pro-Text-Ultralight.otf");
 }
 
 @font-face {
     font-family: "SF Pro Rounded Regular";
-    src: url("/Content/Fonts/SF-Pro-Rounded-Regular.otf");
+    src: url("/public/fonts/SF-Pro-Rounded-Regular.otf");
 }
 
 /*---------------------------------------------------------------*/
@@ -78,7 +78,7 @@ header {
 }
 
 .header-logo {
-    background: url("/Content/Logos/logo-icon.png") center / contain no-repeat;
+    background: url("/public/logos/logo-icon.png") center / contain no-repeat;
 
     position: absolute;
     left: 50%;
@@ -185,7 +185,7 @@ header {
     min-height: 100svh;
 
     background:
-        url("/Content/Images/hero.jpg") center / cover no-repeat,
+        url("/public/images/hero.jpg") center / cover no-repeat,
         black;
 
     margin-bottom: 100px;
