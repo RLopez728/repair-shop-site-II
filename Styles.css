@@ -16,6 +16,11 @@
 }
 
 @font-face {
+    font-family: "SF Pro Display Bold";
+    src: url("/fonts/SF-Pro-Display-Bold.otf");
+}
+
+@font-face {
     font-family: "SF Pro Display Regular";
     src: url("/fonts/SF-Pro-Display-Regular.otf");
 }
@@ -221,9 +226,11 @@ header {
 }
 
 .title {
-    color: rgb(255, 255, 255);
+    font-family: "SF Pro Display Bold";
     font-size: 20px;
     text-shadow: black 1px 1px 2px;
+    color: rgb(255, 255, 255);
+
     line-height: 10px;
 
     display: flex;
